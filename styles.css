@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(0, 10, 42);
+  color: azure;
+}
+.imgmain {
+  text-align: center;
+  width: 275px;
+  background-color: rgb(6, 43, 78);
+  padding: 1em;
+  border-radius: 0.6em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  box-shadow: 1.3em 1.3em 0.6em 0 rgba(0, 0, 0, 0.3);
+  font-size: small;
+}
+#abc {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  top: 3.5px;
+  margin-bottom: 20px;
+
+  padding: 0%;
+  width: 240px;
+  height: 220px;
+  border-radius: 0.5em;
+  margin-left: 0;
+}
+h1 {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 4px;
+}
+h1:hover {
+  color: aqua;
+  cursor: pointer;
+}
+#main {
+  font-weight: 40;
+  color: rgb(163, 185, 234);
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#lefts {
+  color: rgb(7, 238, 254);
+  position: relative;
+  right: 43px;
+  top: 10px;
+  font-weight: bolder;
+}
+#rights {
+  color: #8bacd9;
+  position: relative;
+  left: 43px;
+  top: 10px;
+}
+#bad {
+  border: 2px solid;
+  border-color: blanchedalmond;
+  border-radius: 1.5em;
+}
+#botoom {
+  text-align: left;
+  position: relative;
+  right: 30px;
+}
+.attribution {
+  position: static;
+  left: 650px;
+
+  top: 1000px;
+
+  font-weight: bolder;
+}
+#fest:hover {
+  color: aqua;
+  cursor: pointer;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.overlay {
+  position: absolute;
+  top: 17px;
+  left: 18px;
+  right: 0;
+  bottom: 20px;
+  height: 48%;
+  width: 87%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  background-color: rgb(80, 246, 246);
+  border-radius: 0.6em;
+  cursor: pointer;
+}
+.wrapper:hover .overlay {
+  opacity: 0.7;
+}
