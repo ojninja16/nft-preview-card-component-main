@@ -69,10 +69,11 @@ h1:hover {
   right: 30px;
 }
 .attribution {
-  position: static;
-  left: 650px;
-
-  top: 1000px;
+  position: fixed;
+  /* left: 650px; */
+  width: 100%;
+  /* top: 1000px; */
+  bottom: 130px;
 
   font-weight: bolder;
 }
